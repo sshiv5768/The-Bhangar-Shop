@@ -14,7 +14,7 @@ return (
     <figure>
       <img src={iron} alt="iron" />
       <p>लोहा</p>
-      <p>Price: 31/kg</p>
+      <p>Price: 30/kg</p>
     </figure>
     <figure>
       <img src={paper} alt="paper" />

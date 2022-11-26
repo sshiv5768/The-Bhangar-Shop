@@ -10,29 +10,31 @@ return (
   <p>
     Bhangar Prices at <a href="#">Dhora ka Shyam Pasti Bhandar </a>
   </p>
-  <div class="image-grid">
-    <figure>
-      <img src={iron} alt="iron" />
-      <p>लोहा</p>
-      <p>Price: 30/kg</p>
-    </figure>
-    <figure>
-      <img src={paper} alt="paper" />
-      <p>अखबार की रद्दी</p>
-      <p>Price: 23/kg</p>
-    </figure>
-    <figure>
-      <img src={cartoon} alt="cartoon box" />
-      <p>कार्टून बॉक्स</p>
-      <p>Price: 13/kg</p>
-    </figure>
-    <figure>
-      <img src={plastic} alt="plastic" />
-      <p>प्लास्टिक</p>
-      <p>Price: 14/kg</p>
-    </figure>
-
+  <div class="container">
+    <div class="image-grid">
+      <figure>
+        <img src={iron} alt="iron" />
+        <p>लोहा</p>
+        <p>Price: 30/kg</p>
+      </figure>
+      <figure>
+        <img src={paper} alt="paper" />
+        <p>अखबार की रद्दी</p>
+        <p>Price: 23/kg</p>
+      </figure>
+      <figure>
+        <img src={cartoon} alt="cartoon box" />
+        <p>कार्टून बॉक्स</p>
+        <p>Price: 13/kg</p>
+      </figure>
+      <figure>
+        <img src={plastic} alt="plastic" />
+        <p>प्लास्टिक</p>
+        <p>Price: 14/kg</p>
+      </figure>
+    </div>
   </div>
+
 </div>
 );
 }

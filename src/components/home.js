@@ -6,6 +6,7 @@ import plastic from "../images/plastic.jpg"
 function Home() {
 return (
 <div>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <h1>Bhangar Shop</h1>
   <p>
     Bhangar Prices at <a href="#">Dhora ka Shyam Pasti Bhandar </a>
@@ -34,7 +35,6 @@ return (
       </figure>
     </div>
   </div>
-
 </div>
 );
 }

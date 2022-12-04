@@ -1,6 +1,6 @@
-/node_modules
-npm-debug.log
-build
-.git
-* .md
-.gitignore
+Dockerfile
+.dockerignore   
+.gitignore 
+
+# Artificats
+node_modules

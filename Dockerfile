@@ -1,7 +1,8 @@
-FROM node:alpine
-ENV NODE_ENV development
+FROM node:current-alpine
 WORKDIR /app
-COPY ./package.json /app
-RUN npm install
+
+COPY package*.json ./
+RUN yarn install
+
 COPY . .
-CMD npm start
+CMD ["yarn", "install"]

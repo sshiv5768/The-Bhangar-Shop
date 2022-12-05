@@ -9,7 +9,7 @@ return (
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <h1>Bhangar Shop</h1>
   <p>
-    Bhangar Prices at <a href="#">Dhora ka Shyam Pasti Bhandar </a>
+    Bhangar Prices at <a href="#">Dhora ka Shyam Pasti Bhandar Shop </a>
   </p>
   <div class="container">
     <div class="image-grid">
